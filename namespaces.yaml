@@ -4,16 +4,20 @@ items:
 - apiVersion: v1
   kind: Namespace
   metadata:
-  name: apis
+      name: apis
 - apiVersion: v1
   kind: Namespace
   metadata:
-  name: argo
+      name: argo
 - apiVersion: v1
   kind: Namespace
   metadata:
-  name: loki
+      name: loki
 - apiVersion: v1
   kind: Namespace
   metadata:
-  name: jupyter
+      name: jupyter
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+      name: es
