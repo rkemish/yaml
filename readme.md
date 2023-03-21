@@ -55,3 +55,6 @@ thingsolver/solver-foundation-auth-api:3.5.0
 thingsolver/solver-foundation-auth-api:latest
 thingsolver/solver-foundation-auth-api:v3.5.0
 trinodb/trino:406
+
+
+rssaramldev  namespaces Azure ML
