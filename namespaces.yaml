@@ -21,3 +21,15 @@ items:
   kind: Namespace
   metadata:
       name: es
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+      name: external-secrets
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+      name: trino
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+      name: istio-system
