@@ -5,7 +5,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798
     labels:
       azure.workload.identity/use: "true"
@@ -16,7 +16,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
@@ -27,7 +27,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798
     labels:
       azure.workload.identity/use: "true"
@@ -38,7 +38,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
@@ -49,7 +49,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
@@ -60,7 +60,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
@@ -71,7 +71,7 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: d0c9975a-ca89-4241-9c3f-ebcf2be7a5d6
+      azure.workload.identity/client-id: 4c793de2-2162-4e6b-a231-c8642d4790af
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"

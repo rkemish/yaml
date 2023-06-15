@@ -5,29 +5,29 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798
     labels:
       azure.workload.identity/use: "true"
     name: sara
     namespace: argo
-  automountServiceAccountToken: false
+  automountServiceAccountToken: true
 - apiVersion: v1
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
     name: sara
     namespace: apis
-  automountServiceAccountToken: false
+  automountServiceAccountToken: true
 - apiVersion: v1
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798
     labels:
       azure.workload.identity/use: "true"
@@ -38,43 +38,43 @@ items:
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
     name: sara
     namespace: trino
-  automountServiceAccountToken: false
+  automountServiceAccountToken: true
 - apiVersion: v1
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
     name: sara
     namespace: default
-  automountServiceAccountToken: false
+  automountServiceAccountToken: true
 - apiVersion: v1
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
     name: sara
     namespace: loki
-  automountServiceAccountToken: false
+  automountServiceAccountToken: true
 - apiVersion: v1
   kind: ServiceAccount
   metadata:
     annotations:
-      azure.workload.identity/client-id: 89b7b01d-1859-4a2b-a00f-6ed82a20f390
+      azure.workload.identity/client-id: 8b5f44e6-d847-41c2-adc6-ff6dc69d696c
       azure.workload.identity/tenant-id: 26a1e041-d3a2-4d59-a14a-acaedd98e798  
     labels:
       azure.workload.identity/use: "true"
     name: sara
     namespace: istio-system
-  automountServiceAccountToken: false
+  automountServiceAccountToken: true
